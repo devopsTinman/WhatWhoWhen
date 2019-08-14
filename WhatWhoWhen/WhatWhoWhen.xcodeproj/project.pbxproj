@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		71C7AC1023035D07002D45B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC0F23035D07002D45B2 /* AppDelegate.swift */; };
-		71C7AC1223035D07002D45B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC1123035D07002D45B2 /* ViewController.swift */; };
+		71C7AC1223035D07002D45B2 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC1123035D07002D45B2 /* IntroVC.swift */; };
 		71C7AC1523035D07002D45B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C7AC1323035D07002D45B2 /* Main.storyboard */; };
 		71C7AC1823035D07002D45B2 /* WhatWhoWhen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC1623035D07002D45B2 /* WhatWhoWhen.xcdatamodeld */; };
 		71C7AC1A23035D08002D45B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C7AC1923035D08002D45B2 /* Assets.xcassets */; };
 		71C7AC1D23035D08002D45B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C7AC1B23035D08002D45B2 /* LaunchScreen.storyboard */; };
+		71C7AC2B23035E3C002D45B2 /* WhereToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC2A23035E3C002D45B2 /* WhereToVC.swift */; };
+		71C7AC2D23035EB1002D45B2 /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC2C23035EB1002D45B2 /* PeopleVC.swift */; };
+		71C7AC2F23035ED8002D45B2 /* ProjectsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC2E23035ED8002D45B2 /* ProjectsVC.swift */; };
+		71C7AC3123035F88002D45B2 /* WhereToCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3023035F88002D45B2 /* WhereToCell.swift */; };
+		71C7AC3323035FCC002D45B2 /* WWWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3223035FCC002D45B2 /* WWWButton.swift */; };
+		71C7AC3523035FFC002D45B2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3423035FFC002D45B2 /* GradientView.swift */; };
+		71C7AC3723036031002D45B2 /* WWWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3623036031002D45B2 /* WWWCell.swift */; };
+		71C7AC3923036091002D45B2 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3823036091002D45B2 /* ProjectCell.swift */; };
+		71C7AC3B230360B1002D45B2 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3A230360B1002D45B2 /* PersonCell.swift */; };
+		71C7AC3D230360D9002D45B2 /* WhatWhoWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3C230360D9002D45B2 /* WhatWhoWhen.swift */; };
+		71C7AC3F230360F6002D45B2 /* WWWProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC3E230360F6002D45B2 /* WWWProject.swift */; };
+		71C7AC412303610E002D45B2 /* Who.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC402303610E002D45B2 /* Who.swift */; };
+		71C7AC4323036126002D45B2 /* When.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC4223036126002D45B2 /* When.swift */; };
+		71C7AC452303613C002D45B2 /* What.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC442303613C002D45B2 /* What.swift */; };
+		71C7AC4723036157002D45B2 /* WhereTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC4623036157002D45B2 /* WhereTo.swift */; };
+		71C7AC492303B8DA002D45B2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC482303B8DA002D45B2 /* DataService.swift */; };
+		71C7AC4B2303BB67002D45B2 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7AC4A2303BB67002D45B2 /* EventService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71C7AC0C23035D07002D45B2 /* WhatWhoWhen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWhoWhen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C7AC0F23035D07002D45B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71C7AC1123035D07002D45B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71C7AC1123035D07002D45B2 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		71C7AC1423035D07002D45B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71C7AC1723035D07002D45B2 /* WhatWhoWhen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatWhoWhen.xcdatamodel; sourceTree = "<group>"; };
 		71C7AC1923035D08002D45B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C7AC1C23035D08002D45B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71C7AC1E23035D08002D45B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C7AC2A23035E3C002D45B2 /* WhereToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToVC.swift; sourceTree = "<group>"; };
+		71C7AC2C23035EB1002D45B2 /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
+		71C7AC2E23035ED8002D45B2 /* ProjectsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsVC.swift; sourceTree = "<group>"; };
+		71C7AC3023035F88002D45B2 /* WhereToCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToCell.swift; sourceTree = "<group>"; };
+		71C7AC3223035FCC002D45B2 /* WWWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWWButton.swift; sourceTree = "<group>"; };
+		71C7AC3423035FFC002D45B2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		71C7AC3623036031002D45B2 /* WWWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWWCell.swift; sourceTree = "<group>"; };
+		71C7AC3823036091002D45B2 /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		71C7AC3A230360B1002D45B2 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		71C7AC3C230360D9002D45B2 /* WhatWhoWhen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWhoWhen.swift; sourceTree = "<group>"; };
+		71C7AC3E230360F6002D45B2 /* WWWProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWWProject.swift; sourceTree = "<group>"; };
+		71C7AC402303610E002D45B2 /* Who.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who.swift; sourceTree = "<group>"; };
+		71C7AC4223036126002D45B2 /* When.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = When.swift; sourceTree = "<group>"; };
+		71C7AC442303613C002D45B2 /* What.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What.swift; sourceTree = "<group>"; };
+		71C7AC4623036157002D45B2 /* WhereTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereTo.swift; sourceTree = "<group>"; };
+		71C7AC482303B8DA002D45B2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		71C7AC4A2303BB67002D45B2 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,80 @@
 		71C7AC0E23035D07002D45B2 /* WhatWhoWhen */ = {
 			isa = PBXGroup;
 			children = (
+				71C7AC2923035D9B002D45B2 /* Model */,
+				71C7AC2823035D7F002D45B2 /* View */,
+				71C7AC2723035D6B002D45B2 /* Controller */,
+				71C7AC2623035D63002D45B2 /* Support */,
+				71C7AC2523035D5B002D45B2 /* DataModel */,
+				71C7AC2423035D3F002D45B2 /* Services */,
 				71C7AC0F23035D07002D45B2 /* AppDelegate.swift */,
-				71C7AC1123035D07002D45B2 /* ViewController.swift */,
-				71C7AC1323035D07002D45B2 /* Main.storyboard */,
 				71C7AC1923035D08002D45B2 /* Assets.xcassets */,
 				71C7AC1B23035D08002D45B2 /* LaunchScreen.storyboard */,
 				71C7AC1E23035D08002D45B2 /* Info.plist */,
-				71C7AC1623035D07002D45B2 /* WhatWhoWhen.xcdatamodeld */,
 			);
 			path = WhatWhoWhen;
+			sourceTree = "<group>";
+		};
+		71C7AC2423035D3F002D45B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC482303B8DA002D45B2 /* DataService.swift */,
+				71C7AC4A2303BB67002D45B2 /* EventService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		71C7AC2523035D5B002D45B2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC1623035D07002D45B2 /* WhatWhoWhen.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		71C7AC2623035D63002D45B2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC1323035D07002D45B2 /* Main.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		71C7AC2723035D6B002D45B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC1123035D07002D45B2 /* IntroVC.swift */,
+				71C7AC2A23035E3C002D45B2 /* WhereToVC.swift */,
+				71C7AC2C23035EB1002D45B2 /* PeopleVC.swift */,
+				71C7AC2E23035ED8002D45B2 /* ProjectsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C7AC2823035D7F002D45B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC3023035F88002D45B2 /* WhereToCell.swift */,
+				71C7AC3223035FCC002D45B2 /* WWWButton.swift */,
+				71C7AC3423035FFC002D45B2 /* GradientView.swift */,
+				71C7AC3623036031002D45B2 /* WWWCell.swift */,
+				71C7AC3823036091002D45B2 /* ProjectCell.swift */,
+				71C7AC3A230360B1002D45B2 /* PersonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C7AC2923035D9B002D45B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C7AC3C230360D9002D45B2 /* WhatWhoWhen.swift */,
+				71C7AC3E230360F6002D45B2 /* WWWProject.swift */,
+				71C7AC402303610E002D45B2 /* Who.swift */,
+				71C7AC4223036126002D45B2 /* When.swift */,
+				71C7AC442303613C002D45B2 /* What.swift */,
+				71C7AC4623036157002D45B2 /* WhereTo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +237,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C7AC1223035D07002D45B2 /* ViewController.swift in Sources */,
+				71C7AC2F23035ED8002D45B2 /* ProjectsVC.swift in Sources */,
+				71C7AC3923036091002D45B2 /* ProjectCell.swift in Sources */,
+				71C7AC1223035D07002D45B2 /* IntroVC.swift in Sources */,
+				71C7AC412303610E002D45B2 /* Who.swift in Sources */,
+				71C7AC3D230360D9002D45B2 /* WhatWhoWhen.swift in Sources */,
+				71C7AC452303613C002D45B2 /* What.swift in Sources */,
+				71C7AC492303B8DA002D45B2 /* DataService.swift in Sources */,
+				71C7AC3123035F88002D45B2 /* WhereToCell.swift in Sources */,
+				71C7AC4B2303BB67002D45B2 /* EventService.swift in Sources */,
+				71C7AC3323035FCC002D45B2 /* WWWButton.swift in Sources */,
+				71C7AC4323036126002D45B2 /* When.swift in Sources */,
+				71C7AC2B23035E3C002D45B2 /* WhereToVC.swift in Sources */,
+				71C7AC3F230360F6002D45B2 /* WWWProject.swift in Sources */,
+				71C7AC3B230360B1002D45B2 /* PersonCell.swift in Sources */,
+				71C7AC4723036157002D45B2 /* WhereTo.swift in Sources */,
 				71C7AC1823035D07002D45B2 /* WhatWhoWhen.xcdatamodeld in Sources */,
+				71C7AC2D23035EB1002D45B2 /* PeopleVC.swift in Sources */,
 				71C7AC1023035D07002D45B2 /* AppDelegate.swift in Sources */,
+				71C7AC3523035FFC002D45B2 /* GradientView.swift in Sources */,
+				71C7AC3723036031002D45B2 /* WWWCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,11 +14,14 @@ class WhereToCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    @IBOutlet weak var whereToImage: UIImageView!
+    @IBOutlet weak var whereToTitle: UILabel!
+    @IBOutlet weak var whereToCount: UILabel!
+    
+    func updateViews(whereTo: WhereTo) {
+        whereToImage.image = UIImage(named: whereTo.imageName)
+        whereToTitle.text = whereTo.title
+        whereToCount.text = String(whereTo.objectCount)
     }
-
 }

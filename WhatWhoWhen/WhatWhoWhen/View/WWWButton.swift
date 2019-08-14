@@ -1,21 +1,33 @@
 //
 //  WWWButton.swift
-//  WhatWhoWhen
+//  WhoWhatWhen
 //
-//  Created by Allbee, Eamon on 8/13/19.
+//  Created by Allbee, Eamon on 5/30/19.
 //  Copyright © 2019 Allbee, Eamon. All rights reserved.
 //
 
 import UIKit
 
+@IBDesignable
 class WWWButton: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    @IBInspectable var cornerRadius: CGFloat = 3.0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+        }
     }
-    */
-
+    
+    override func awakeFromNib() {
+        self.setupView()
+    }
+    
+    func setupView() {
+        self.layer.cornerRadius = cornerRadius
+    }
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        self.setupView()
+    }
+    
 }
